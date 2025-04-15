@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Diagnosis</title>
+    <style>
+        body { font-family: Arial; background: #f2f2f2; text-align: center; padding: 40px; }
+        .box { background: white; padding: 30px; display: inline-block; border-radius: 10px; box-shadow: 0px 0px 10px #ccc; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Your Symptoms:</h2>
+        <p>{{ user_input }}</p>
+
+        <h2>Possible Diagnosis:</h2>
+        <p>{{ response }}</p>
+
+        <a href="/">Try again</a>
+    </div>
+</body>
+</html>
